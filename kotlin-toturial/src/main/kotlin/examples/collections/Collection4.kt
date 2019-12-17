@@ -38,11 +38,13 @@ fun fun_partition() {
     println("partition positives:$positives,\nnegatives:$negatives")
 }
 
+// todo
 fun fun_flatMap() {
     println("********************** flat map **********************")
-    val numbers = listOf(1, 2, 3)
-    val numbers2 = listOf(8, 9, 5)
+    val list = listOf(listOf(10, 20), listOf(30, 40), listOf(50, 60))
+    var mapList = list.map { ele -> ele.toString() }
+    var flatMapList = list.flatMap { ele -> ele.asIterable() }
 
-    val flatmap = numbers.flatMap { numbers2 }
-    println("flatMap:$flatmap")
+    println("mapList:$mapList")
+    println("flatMapList:$flatMapList")
 }
