@@ -1,5 +1,8 @@
 package main.kotlin.examples.collections
 
+/**
+ * https://play.kotlinlang.org/byExample
+ */
 fun main() {
     println("********************* List ********************")
     collection_list()
