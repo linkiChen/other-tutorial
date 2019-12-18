@@ -1,0 +1,16 @@
+Junit
+testNg
+mock: powermock easymock mockito jmock
+behavior testing concordion cucumber
+
+jenkins
+git/github/git workflow
+
+puppet/ansible/saltstack
+docker
+
+jira
+confluence page(wiki)
+
+sonar/sonar scan
+checkstyle/findbugs
